@@ -16,3 +16,5 @@ function isValid(s) {
 
     return stack.length === 0;
 }
+let obj = isValid("()[]{}");
+console.log(obj);
